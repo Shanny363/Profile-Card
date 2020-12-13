@@ -7,12 +7,13 @@ body {
 hr {
   width: 348px;
   position: relative;
-  bottom: 30px;
+  bottom: -10px;
   margin: 0;
 }
 table {
   margin: auto;
   text-align: center;
+  border-collapse: collapse;
 }
 td {
   padding: 0 10px 0 10px;
@@ -21,8 +22,18 @@ tr {
   padding: 0;
 }
 /***************** CLASS SELECTORS *************/
+.body-t {
+  position: absolute;
+  right: 200px;
+  bottom: 400px;
+}
+.body-b {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
 .card {
-  margin: auto;
+  margin: 20% auto;
   width: 350px;
   height: 400px;
   border-radius: 1em;
@@ -45,18 +56,22 @@ tr {
 }
 .name {
   position: relative;
-  font-size: 18px;
-  bottom: 40px;
   margin: 0;
+  bottom: 70px;
 }
 .person {
-  margin-top: 0;
+  margin-top: 20px;
   padding: 0;
+  font-weight: bolder;
+  font-size: 25px;
 }
 .location {
   position: relative;
-  bottom: 45px;
   margin: 0;
+  font-weight: lighter;
+  bottom: 10px;
+}
+.age {
   font-weight: lighter;
 }
 .stats {
@@ -65,4 +80,7 @@ tr {
 }
 .numbers {
   font-weight: lighter;
+}
+.titles {
+  height: 10px;
 }
